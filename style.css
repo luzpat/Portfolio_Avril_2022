@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background: url(/Backgrounds/patternbody2.jpg);
+    background-size: cover;
+}
+
+
+/* Titre */
+
+.container-titre {
+    background: linear-gradient(90deg, #3AAED8, #52AA8A);
+    height: 20rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-bottom: 2px solid #52AA8A;
+    box-shadow: 0px 2px 8px black ;
+}
+
+.titre {
+    margin: 0 0 0 4rem;
+    padding: 1rem 0 0.2rem 0;
+    font-size: 9.5rem;
+    font-family: 'Roboto condensed';
+}
+
+
+
+
+/* LIGNE DIRECTRICE */
+
+.lign-dir {
+    margin: 6rem auto 6rem auto;
+    width: 6px;
+    height: 70rem;
+    background: linear-gradient(0deg, #52AA8A, #3AAED8);
+    justify-content: center;
+    box-shadow: 10px 2px 5px gray;
+}
+
+a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin: 1rem 0rem 1rem 0rem;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ICONES */
+
+.icone {
+    width: 60px;
+    border: 4px solid #3AAED8;
+    border-radius: 60px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 7px 2px 5px gray;
+
+}
+
+/* Div Baccalauréat */
+
+.baccal {
+    background: url(/Backgrounds/pattern1.jpg);
+    background-size: contain;
+    margin: 0 0 0 3rem;
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+    box-shadow: 2px 6px 8px gray;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 24rem;
+    width: 30rem;
+    height: 10rem;
+}
+
+.baccal-text {
+    text-align: center;
+    margin: auto;
+    font-size: 1.8rem;
+    font-family: 'Roboto condensed';
+}
+
+/* Div Faculté */
+
+#fac {
+    top: 38rem;
+    
+}
+
+.faculte {
+    background: url(/Backgrounds/pattern1.jpg);
+    background-size: contain;
+    margin: 0 2 0 0rem;
+    border-radius: 10px;
+    box-shadow: 2px 6px 8px gray;
+    position: absolute;
+    display: flex;
+    top: 36rem;
+    right: 0rem;
+    width: 30rem;
+    height: 10rem;
+}
+
+.faculte-text {
+    text-align: center;
+    margin: auto;
+    font-size: 1.8rem;
+    font-family: 'Roboto condensed';
+}
+
+/* Div Composer */
+
+#comp {
+    top: 50rem;
+}
+
+.composer {
+    background: url(/Backgrounds/pattern1.jpg);
+    background-size: contain;
+    margin: 0 0 0 2rem;
+    border-radius: 10px;
+    box-shadow: 2px 6px 8px gray;
+    position: absolute;
+    display: flex;
+    top: 47rem;
+    width: 32rem;
+    height: 12rem;
+}
+
+.composer-text {
+    text-align: center;
+    margin: auto;
+    font-size: 1.8rem;
+    font-family: 'Roboto condensed';
+}
+
+/* Div Apple */
+
+#apple {
+    top: 65rem;
+}
+
+.apple {
+    background: url(/Backgrounds/pattern1.jpg);
+    background-size: contain;
+    margin: 0 0 0 2rem;
+    border-radius: 10px;
+    box-shadow: 2px 6px 8px gray;
+    position: absolute;
+    display: flex;
+    top: 61rem;
+    width: 32rem;
+    height: 12rem;
+}
+
+.apple-text {
+    text-align: center;
+    margin: auto;
+    font-size: 1.8rem;
+    font-family: 'Roboto condensed';
+}
+
+.apple2 {
+    background: url(/Backgrounds/pattern1.jpg);
+    background-size: contain;
+    margin: 0 2 0 0;
+    border-radius: 10px;
+    box-shadow: 2px 6px 8px gray;
+    position: absolute;
+    display: flex;
+    top: 61rem;
+    right: 0rem;
+    width: 32rem;
+    height: 14rem;
+}
+
+.apple-text2 {
+    text-align: center;
+    margin: auto;
+    font-size: 1.8rem;
+    font-family: 'Roboto condensed';
+}
+
+/* Div Photo */
+
+#photo {
+    top: 80rem;
+}
+
+.photo {
+    background: url(/Backgrounds/pattern1.jpg);
+    background-size: contain;
+    margin: 0 0 0 2rem;
+    border-radius: 10px;
+    box-shadow: 2px 6px 8px gray;
+    position: absolute;
+    display: flex;
+    top: 77rem;
+    width: 32rem;
+    right: 0rem;
+    height: 12rem;
+}
+
+.photo-text {
+    text-align: center;
+    margin: auto;
+    font-size: 1.8rem;
+    font-family: 'Roboto condensed';
+}
+
+/* Div Formation */
+
+#form {
+    top: 92rem;
+}
+
+.formation {
+    background: url(/Backgrounds/pattern1.jpg);
+    background-size: contain;
+    margin: 0 0 0 2rem;
+    border-radius: 10px;
+    box-shadow: 2px 6px 8px gray;
+    position: absolute;
+    display: flex;
+    top: 88rem;
+    width: 32rem;
+    height: 12rem;
+}
+
+.formation-text {
+    text-align: center;
+    margin: auto;
+    font-size: 1.8rem;
+    font-family: 'Roboto condensed';
+}
+
+/* h4 */
+
+h4 {
+    color: white;
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 1rem 0 0 0;
+}
+
+/* Div infos baccalauréat */
+
+.baccal-info {
+    background: linear-gradient(90deg, #52AA8A, #3AAED8);
+    box-shadow: 0px 2px 8px black;
+    margin: 0 2rem 2rem 2rem;
+    border-radius: 10px;
+}
+
+.baccal-info p {
+    font-size: 1.4rem;
+    color: white;
+    padding: 2rem 0 2rem 2rem;
+}
+
+/* Div infos fac */
+
+.fac-info {
+    background: linear-gradient(245deg, #52AA8A, #3AAED8);
+    box-shadow: 0px 2px 8px black;
+    margin: 0 2rem 2rem 2rem;
+    border-radius: 10px;
+}
+
+.fac-info p {
+    font-size: 1.4rem;
+    color: white;
+    padding: 2rem 0 2rem 2rem;
+}
+
+/* Div infos composition */
+
+.composer-info {
+    background: linear-gradient(90deg, #52AA8A, #3AAED8);
+    box-shadow: 0px 2px 8px black;
+    margin: 0 2rem 2rem 2rem;
+    border-radius: 10px;
+}
+
+.composer-info p {
+    font-size: 1.4rem;
+    color: white;
+    padding: 2rem 0 2rem 2rem;
+}
+
+/* Div infos Apple */
+
+.apple-info {
+    background: linear-gradient(90deg, #52AA8A, #3AAED8);
+    box-shadow: 0px 2px 8px black;
+    margin: 0 2rem 2rem 2rem;
+    border-radius: 10px;
+}
+
+.apple-info p {
+    font-size: 1.4rem;
+    color: white;
+    padding: 2rem 0 2rem 2rem;
+}
+
+.apple-info ul {
+    padding: 0 0 0.5rem 2rem;
+}
+
+.apple-info li {
+    color: white;
+    font-size: 1.4rem;
+    padding: 0.5rem 0 0.5rem 2rem;
+    list-style-type: square;
+}
+
+/* Div infos photo */
+
+.photo-info {
+    background: linear-gradient(245deg, #52AA8A, #3AAED8);
+    box-shadow: 0px 2px 8px black;
+    margin: 0 2rem 2rem 2rem;
+    border-radius: 10px;
+}
+
+.photo-info p {
+    font-size: 1.4rem;
+    color: white;
+    padding: 2rem 0 2rem 2rem;
+}
+
+/* Div infos formation */
+
+.formation-info {
+    background: linear-gradient(90deg, #52AA8A, #3AAED8);
+    box-shadow: 0px 2px 8px black;
+    margin: 0 2rem 2rem 2rem;
+    border-radius: 10px;
+}
+
+.formation-info p {
+    font-size: 1.4rem;
+    color: white;
+    padding: 2rem 0 2rem 2rem;
+}
+
+/* Footer */
+
+
+h5 {
+    font-size: 3rem;
+    font-family: 'Roboto condensed';
+    color: white;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+
+}
+
+.footer-container {
+    background-color: #388659;
+    height: auto;
+    box-shadow: 0px -2px 8px black;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icone-res {
+    width: 60px;
+    margin: 1.5rem auto 2.5rem auto;
+}
