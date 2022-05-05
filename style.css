@@ -384,3 +384,9 @@ h5 {
     width: 60px;
     margin: 1.5rem auto 2.5rem auto;
 }
+
+@media screen and (min-width = 800px) {
+    .baccal, .faculte, .composer, .apple, .apple2, .photo, .formation {
+        display: hidden;
+    }
+}
