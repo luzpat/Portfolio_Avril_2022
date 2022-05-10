@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url(/Backgrounds/patternbody2.jpg);
+    background: url(./Backgrounds/patternbody2.jpg);
     background-size: cover;
 }
 
@@ -72,7 +72,7 @@ a:hover {
 /* Div Baccalauréat */
 
 .baccal {
-    background: url(/Backgrounds/pattern1.jpg);
+    background: url(./Backgrounds/pattern1.jpg);
     background-size: contain;
     margin: 0 0 0 3rem;
     /* border: 1px solid gray; */
@@ -101,7 +101,7 @@ a:hover {
 }
 
 .faculte {
-    background: url(/Backgrounds/pattern1.jpg);
+    background: url(./Backgrounds/pattern1.jpg);
     background-size: contain;
     margin: 0 2 0 0rem;
     border-radius: 10px;
@@ -128,7 +128,7 @@ a:hover {
 }
 
 .composer {
-    background: url(/Backgrounds/pattern1.jpg);
+    background: url(./Backgrounds/pattern1.jpg);
     background-size: contain;
     margin: 0 0 0 2rem;
     border-radius: 10px;
@@ -154,7 +154,7 @@ a:hover {
 }
 
 .apple {
-    background: url(/Backgrounds/pattern1.jpg);
+    background: url(./Backgrounds/pattern1.jpg);
     background-size: contain;
     margin: 0 0 0 2rem;
     border-radius: 10px;
@@ -174,7 +174,7 @@ a:hover {
 }
 
 .apple2 {
-    background: url(/Backgrounds/pattern1.jpg);
+    background: url(./Backgrounds/pattern1.jpg);
     background-size: contain;
     margin: 0 2 0 0;
     border-radius: 10px;
@@ -201,7 +201,7 @@ a:hover {
 }
 
 .photo {
-    background: url(/Backgrounds/pattern1.jpg);
+    background: url(./Backgrounds/pattern1.jpg);
     background-size: contain;
     margin: 0 0 0 2rem;
     border-radius: 10px;
@@ -228,7 +228,7 @@ a:hover {
 }
 
 .formation {
-    background: url(/Backgrounds/pattern1.jpg);
+    background: url(./Backgrounds/pattern1.jpg);
     background-size: contain;
     margin: 0 0 0 2rem;
     border-radius: 10px;
@@ -378,11 +378,22 @@ h5 {
 .flex-container {
     display: flex;
     justify-content: space-evenly;
+
+}
+
+.img-container {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.footer-link {
+    display: block;
+    color: white;
 }
 
 .icone-res {
     width: 60px;
-    margin: 1.5rem auto 2.5rem auto;
+    margin: 1.5rem auto 0 auto;
 }
 
 @media screen and (min-width = 800px) {
