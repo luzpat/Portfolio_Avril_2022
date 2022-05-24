@@ -84,6 +84,7 @@ a:hover {
     top: 24rem;
     width: 30rem;
     height: 10rem;
+    overflow: hidden;
 }
 
 .baccal-text {
